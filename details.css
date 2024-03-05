@@ -1,0 +1,18 @@
+.details{
+    height: 300px;
+    width: 1536px;
+    background-color: rgb(208, 205, 205);
+    display: grid;
+    grid-template-columns: 300px 936px 300px;
+    margin-top: 0;
+}
+.registrations{
+    display: inline-block;
+    width: fit-content;
+    font-size: small;
+    font-weight: bold;
+}
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
