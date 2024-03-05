@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration form</title>
+  <link rel="stylesheet" href="form.css">
+</head>
+<body>
+  <div class="container">
+    <form id="form1">
+    <h3>Register Now</h3>
+    <input type="text" placeholder="Enter Team Size" required id="team-size">
+    <div class="btn-box">
+      <button type="button" id="Next1">Next</button>
+
+    </div>
+    </form>
+    <form id="form2">
+      <h3>Participants Details</h3>
+      <input type="text" placeholder="Name" required>
+      <input type="text" placeholder="Enroll No" required>
+      <input type="text" placeholder="Gsuit Id" required>
+      <div class="btn-box">
+        <button type="button">Next</button>
+        <button type="submit">Submit</button>
+  
+      </div>
+
+      </form>
+      <script>
+        var form1=document.getElementById("form1");
+        var form2=document.getElementById("form2");
+        var next1=document.getElementById("Next1");
+        next1.onclick= function(){
+          form1.style.left="-450px";
+          form2.style.left="40px";
+        }
+        
+
+      </script>
+
+      
+
+
+  </div>
+</body>
+</html>
